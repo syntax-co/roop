@@ -1,21 +1,25 @@
-import MeetTheChef from "@/components/home/meet-the-chef";
-import Tile1 from "@/components/home/tile-1";
 
+import Tile1 from "@/components/home/tile-1";
+import TastingMenuPanel from "@/components/home/tasting-menu-panel";
+import BlerbPanel from "@/components/home/blerb-panel";
+import HoldThePresses from "@/components/home/hold-the-presses";
 
 
 
 
 export default function Home() {
   return (
-    <div className="w-full flex-1 min-h-[100%]  px-10 py-10"
+    <div className="page-body"
     >
 
 
       <Tile1 />
 
-      <MeetTheChef />
-
+      {/* <TastingMenuPanel />
       
+      <BlerbPanel />
+
+      <HoldThePresses /> */}
 
       <div className="w-full h-24" 
       />

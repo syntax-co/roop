@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 import { useState } from "react";
 
 
 
 const RoopLogo = () => {
-
+    const router = useRouter();
     const [expand,setExpand] = useState(false);
 
     return (
@@ -17,7 +18,7 @@ const RoopLogo = () => {
         onMouseLeave={() => {setExpand(false)}}
 
         onClick={() => {
-            
+            router.push('/')
         }}
         >
             <div className="text-gold

@@ -15,6 +15,12 @@ export default {
         'greyish':'#BCBCBC'
       },
     },
+    screens: {
+      'sm': '320px', // Modify this line for small phones
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+    }
   },
   plugins: [],
 };

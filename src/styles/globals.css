@@ -7,7 +7,7 @@
 
 html {
   @apply 
-  w-full h-screen 
+  w-screen h-screen
   ;
 }
 
@@ -15,6 +15,36 @@ html {
 body {
   @apply 
   bg-royal
-  h-1/2 w-full
+  overflow-x-hidden
+  h-full w-full
+  ;
+}
+
+.app-body {
+  @apply
+  w-full h-[100vh]
+  px-40
+  flex flex-col justify-center
+
+  sm:px-5
+  md:px-10
+  lg:px-20
+  xl:px-40
+  ;
+}
+
+.page-body {
+  @apply
+  w-full flex-1 min-h-[100%] py-10
+
+  sm:py-4
+  md:py-4
+  lg:py-6
+  xl:py-10
+  
+  sm:px-2 
+  md:px-4 
+  lg:px-6 
+  xl:px-10 
   ;
 }

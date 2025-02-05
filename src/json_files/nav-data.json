@@ -1,12 +1,12 @@
 {
     "default":{
-        "eat":"",
-        "drink":"",
-        "reservations":"",
+        "eat":"/eat",
+        "drink":"/drink",
+        "reservations":"/reservations",
         "more":{
-            "tasting":"",
-            "events":"",
-            "gallery":""
+            "tasting":"/tasting",
+            "events":"/events",
+            "gallery":"/gallery"
         }
     }
 }

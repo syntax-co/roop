@@ -15,20 +15,28 @@ const Tile1 = () => {
 
             <div className="w-full h-full
             absolute
-            bg-[#27272742]" 
+            bg-[#27272756]" 
             
             />
 
 
-            <div className=" text-4xl
+            <div className=" relative
             text-white font-bold
-            mx-auto"
+            mx-auto px-3 text-center
+            
+            font-display
+
+            sm:text-2xl
+            md:text-2xl
+            lg:text-3xl
+            xl:text-3xl
+            "
             >
-            INNOVATIVE INDIAN CUISINE IN A VIBRANT ATMOSPHERE
+            innovative indian cuisine in a vibrant atmosphere
             </div>
 
         </div>
-    );
+        );
 }
  
 export default Tile1;
