@@ -15,11 +15,11 @@ export default function Home() {
 
       <Tile1 />
 
-      {/* <TastingMenuPanel />
+      <TastingMenuPanel />
       
       <BlerbPanel />
 
-      <HoldThePresses /> */}
+      <HoldThePresses />
 
       <div className="w-full h-24" 
       />

@@ -13,7 +13,10 @@ const PressTile = ({title,image,path}) => {
         <motion.div
             className="flex-1 m-6 
             flex flex-col text-white
-            font-primary"
+            font-primary
+            
+            
+            "
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
@@ -31,15 +34,16 @@ const PressTile = ({title,image,path}) => {
 
             <motion.div
             className="flex-1 my-3
-            bg-light rounded-md
+            bg-[#ffffff49] rounded-md
             overflow-hidden
-            cursor-pointer"
+            cursor-pointer
+            flex"
             
             onClick={() => {
                 router.push(path);
             }}
             >
-                <motion.div className="w-full h-full"
+                <motion.div className="flex-1"
                 
                 style={{
                     backgroundImage: `url(${image})`,
@@ -54,7 +58,7 @@ const PressTile = ({title,image,path}) => {
                     }
                 }}
                 >
-
+                    
                 </motion.div>
             </motion.div>
         </motion.div>
@@ -65,7 +69,7 @@ const PressTile = ({title,image,path}) => {
 
 const HoldThePresses = () => {
     return (
-        <div className="w-full h-fit my-20
+        <div className="w-full h-fit my-32  
         flex flex-col justify-center
         font-primary"
         >
@@ -78,9 +82,24 @@ const HoldThePresses = () => {
             </div>
 
             
-            <div className="min-h-[50vh] flex-1 mt-10
+            <div className="flex-1
             rounded-md
             flex
+
+            sm:min-h-[80vh]
+            md:min-h-[80vh]
+            lg:min-h-[40vh]
+            xl:min-h-[40vh]
+
+            sm:mt-0
+            md:mt-0
+            lg:mt-10
+            xl:mt-10
+
+            sm:flex-col
+            md:flex-col
+            lg:flex-row
+            xl:flex-row
             "
             >
 
@@ -102,10 +121,24 @@ const HoldThePresses = () => {
             </div>
 
             <div className="min-h-[50vh]
-            flex-1 mt-10
+            flex-1
             rounded-md 
             flex
-            shadow-inner
+
+            sm:min-h-[80vh]
+            md:min-h-[80vh]
+            lg:min-h-[50vh]
+            xl:min-h-[50vh]
+
+            sm:mt-0
+            md:mt-0
+            lg:mt-10
+            xl:mt-10
+
+            sm:flex-col
+            md:flex-col
+            lg:flex-row
+            xl:flex-row
             "
             >
 

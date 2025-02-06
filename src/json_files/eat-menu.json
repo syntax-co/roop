@@ -1,0 +1,480 @@
+{
+  "Dinner": {
+    "kulchas": [
+      {
+        "name": "Chili Cheese Kulcha",
+        "description": "Tillamook Cheddar, Shishito Pepper",
+        "price": 14
+      },
+      {
+        "name": "Chicken Keema Kulcha",
+        "description": "Tillamook Cheese, Ground Chicken",
+        "price": 14
+      }
+    ],
+    "small_plates": [
+      {
+        "name": "Sweet Potato Chaat",
+        "description": "Spinach Tempura, Yogurt Mousse, Raspberry",
+        "price": 16,
+        "dietary_info": ["Gluten-Free", "Request Vegan"]
+      },
+      {
+        "name": "Avocado & Chickpea Bhel",
+        "description": "Granny Smith Apple, Potatoes, Pomegranate",
+        "price": 16,
+        "dietary_info": ["Gluten-Free", "Vegan"]
+      },
+      {
+        "name": "Sabudana Cutlet",
+        "description": "Spiced Potatoes, Tapioca Pearls, Mint Chutney",
+        "price": 15,
+        "dietary_info": ["Gluten-Free", "Request Vegan"]
+      },
+      {
+        "name": "Dahi Ke Kebab",
+        "description": "Yogurt croquettes, nuts, caramelized onions, tomato jaggery dip",
+        "price": 15,
+        "dietary_info": ["Contains Nuts"]
+      },
+      {
+        "name": "Jackfruit Cutlet",
+        "description": "Fresh Onions, Cilantro, Madras Curry Mayo",
+        "price": 16,
+        "dietary_info": ["Request Vegan"]
+      },
+      {
+        "name": "Goan Crab Cakes",
+        "description": "Xec Xec Sauce, Coconut, Onion, Ginger, Garlic",
+        "price": 18
+      },
+      {
+        "name": "Kerala Chicken",
+        "description": "Curry Leaves, Kerala Podi Masala, Jalapeno Aioli",
+        "price": 16,
+        "allergy": "Eggs"
+      },
+      {
+        "name": "Lamb Keema Hyderabadi",
+        "description": "Potato Mousse, Green Peas, Buttered Brioche Pao",
+        "price": 26
+      },
+      {
+        "name": "Pork Belly",
+        "description": "Fig & Ginger Sauce",
+        "price": 18
+      }
+    ],
+    "large_plates": [
+      {
+        "name": "Saag Paneer Kofta",
+        "description": "Homemade Paneer & Fenugreek Kofta with Spinach Gravy topped with Masala Kataifi",
+        "price": 26,
+        "dietary_info": ["Contains Dairy", "Contains Gluten"]
+      },
+      {
+        "name": "Tandoori Cauliflower",
+        "description": "Kadai Gravy, Cilantro Cress",
+        "price": 26,
+        "dietary_info": ["Gluten-Free", "Vegan Available"]
+      },
+      {
+        "name": "Paneer Pasanda",
+        "description": "Red Pepper Makhani, Cashews, Fenugreek Butter Powder",
+        "price": 28,
+        "dietary_info": ["Gluten-Free", "Contains Nuts"]
+      },
+      {
+        "name": "Bagara Baingan",
+        "description": "Baby Eggplant, Tamarind, Sesame, Coconut Milk, Peanut",
+        "price": 26,
+        "dietary_info": ["Contains Nuts"]
+      },
+      {
+        "name": "Butter Chicken",
+        "description": "Red Pepper Makhani, Cashews, Cilantro",
+        "price": 28,
+        "dietary_info": ["Gluten-Free", "Contains Nuts", "Dairy"]
+      },
+      {
+        "name": "Lamb Shank Nihari",
+        "description": "Braised Lamb Shank, Saffron Nihari",
+        "price": 38,
+        "dietary_info": ["Gluten-Free"]
+      },
+      {
+        "name": "Whole Sea Bass Wrapped In Banana Leaf",
+        "description": "Malabar Sauce, Polichattu Masala",
+        "price": 38,
+        "dietary_info": ["Gluten-Free"]
+      },
+      {
+        "name": "Ghee Roast Prawn",
+        "description": "Ghee Roast Masala, Sautéed Prawn",
+        "price": 28,
+        "dietary_info": ["Gluten-Free"]
+      }
+    ],
+    "Accompaniments": [
+      {
+        "name": "Chutneys",
+        "description": "",
+        "price": 3.00,
+        "options": [
+          "Mint & Cilantro",
+          "Chili & Peanut",
+          "Green Mango & Tomatillo",
+          "Tamarind",
+          "Fermented Habanero"
+        ],
+        "notes": ["Contains Nuts"]
+      },
+      {
+        "name": "Rooh Dal",
+        "description": "Black lentils, Tomatoes, Fresh Cream, Fenugreek",
+        "price": 14,
+        "dietary_info": ["Gluten-Free"]
+      },
+      {
+        "name": "Chickpea Curry",
+        "description": "Ginger, Onions, Tomatoes",
+        "price": 14,
+        "dietary_info": ["Gluten-Free"]
+      },
+      {
+        "name": "Green Bean Foogath",
+        "description": "Green Beans, Curry Leaf, Fresh Coconut",
+        "price": 8
+      },
+      {
+        "name": "Avocado & Garlic Raita",
+        "price": 5
+      },
+      {
+        "name": "Naan",
+        "description": "Plain or Garlic Naan with Butter",
+        "price": 4
+      },
+      {
+        "name": "Whole Wheat Roti",
+        "price": 4,
+        "dietary_info": ["Vegan"]
+      },
+      {
+        "name": "Butter Pao",
+        "description": "House Made Indian Brioche Roll",
+        "price": 4
+      },
+      {
+        "name": "Saffron Rice",
+        "price": 6,
+        "dietary_info": ["Gluten-Free"]
+      },
+      {
+        "name": "Basmati Rice",
+        "price": 4,
+        "dietary_info": ["Gluten-Free"]
+      },
+      {
+        "name": "Onions, Chili, Lemon",
+        "price": 3
+      },
+      {
+        "name": "Extra Makhani Sauce",
+        "description": "Red Pepper Sauce, Cashews, Fenugreek Powder",
+        "price": 5,
+        "notes": ["Contains Nuts"]
+      }
+    ]
+  },
+  "Happy Hour": {
+    "time": "Everyday 3:00 - 5:00pm",
+    "drinks": [
+      {
+        "name": "Signature Cocktails",
+        "description": "All of our Signature Cocktails",
+        "price": 10
+      },
+      {
+        "name": "Sangria",
+        "description": "Red wine and whiskey blend with fresh fruits",
+        "price": 10
+      },
+      {
+        "name": "White Wine",
+        "description": "SELBACH 'Kabinett' Riesling Mosel, Germany 2021",
+        "price": 10
+      },
+      {
+        "name": "Red Wine",
+        "description": "DOMAINE DE LA JANASSE Côtes du Rhône Réserve - Grenache | Syrah | Mourvedre | Cinsault | Carignan - Rhône Valley, France 2021",
+        "price": 10
+      },
+      {
+        "name": "Mezzacorona Castel Firmian",
+        "description": "Teroldego Rotaliano 'Rubino' - Trentino Alto Adige, Italy 2020",
+        "price": 10
+      },
+      {
+        "name": "Happy Hour Beer",
+        "description": "Noon Whistle Hazy IPA",
+        "price": 7
+      }
+    ],
+    "food": [
+      {
+        "name": "Chili Cheese Kulcha",
+        "description": "Tillamook Cheddar, Shishito Pepper",
+        "price": 8
+      },
+      {
+        "name": "Cauliflower Kolidwada",
+        "description": "Lemon Aioli, Podi Masala",
+        "price": 6,
+        "dietary_info": ["Vegan", "Gluten-Free"]
+      },
+      {
+        "name": "Chicken 65",
+        "description": "Curry Mayo",
+        "price": 6
+      }
+    ],
+    "add_ons": {
+      "chutneys": {
+        "price": 3,
+        "options": [
+          "Mint & Cilantro",
+          "Chili & Peanut",
+          "Mango Tomatillo",
+          "Tamarind",
+          "Habanero"
+        ]
+      }
+    }
+  },
+    "Restaurant Week Lunch": {
+      "price": "$30 per person",
+      "availability": "Noon to 3pm for parties up to 6 guests",
+      "Appetizers": [
+        {
+          "name": "Sabudana Cutlet",
+          "description": "Potato, Tapioca Pearls, Mint Chutney",
+          "dietary_info": ["Gluten-Free", "Vegan Available"]
+        },
+        {
+          "name": "Avocado Bhel",
+          "description": "Granny Smith Apple, Potatoes, Pomegranate",
+          "dietary_info": ["Gluten-Free", "Vegan"]
+        },
+        {
+          "name": "Kerala Chicken",
+          "description": "Curry Leaf, Jalapeño Aioli",
+          "dietary_info": []
+        }
+      ],
+      "Mains": [
+        {
+          "name": "Tandoori Cauliflower",
+          "description": "Kadai Gravy, Cilantro",
+          "dietary_info": []
+        },
+        {
+          "name": "Butter Chicken",
+          "description": "Red Pepper Makhani, Cashews, Cilantro",
+          "price": "",
+          "dietary_info": ["Gluten-Free", "Contains Nuts", "Dairy"]
+        },
+        {
+          "name": "Saag Paneer Kofta",
+          "description": "Spinach, Fenugreek, Home-made Paneer",
+          "dietary_info": []
+        }
+      ],
+      "Dessert": [
+        {
+          "name": "Vanilla Gelato",
+          "description": "",
+          "dietary_info": []
+        },
+        {
+          "name": "Pistachio Gelato",
+          "description": "",
+          "price": "",
+          "dietary_info": []
+        },
+        {
+          "name": "Mango Sorbet",
+          "description": "",
+          "dietary_info": []
+        }
+      ]
+    },
+    "Restaurant Week Dinner": {
+      "price": "$60 per person",
+      "availability": "Available for parties up to 6 guests",
+      "Amuse Bouche": [
+        {
+          "name": "Chaat Tart",
+          "description": "Tamarind, Mint, Yogurt"
+        }
+      ],
+      "Small Plates": [
+        {
+          "name": "Avocado & Green Chickpea Bhel",
+          "description": "Granny Smith, Potatoes, Puffed Black Rice",
+          "dietary_info": ["Gluten-Free", "Vegan"]
+        },
+        {
+          "name": "Kerala Chicken",
+          "description": "Curry Leaves, Kerala Podi Masala"
+        },
+        {
+          "name": "Goan Crab Cakes",
+          "description": "Xec Xec Sauce, Coconut"
+        },
+        {
+          "name": "Sabudana Cutlet",
+          "description": "Potato, Tapioca Pearls, Mint Chutney",
+          "dietary_info": ["Gluten-Free", "Vegan Available"]
+        }
+      ],
+      "Large Plates": [
+        {
+          "name": "Butter Chicken",
+          "description": "Red Pepper Makhani, Cashews, Fenugreek & Butter Powder",
+          "dietary_info": ["Contains Nuts"]
+        },
+        {
+          "name": "Saag Paneer Kofta",
+          "description": "Spinach, Fenugreek, Home-Made Paneer Koftas"
+        },
+        {
+          "name": "Tandoori Cauliflower",
+          "description": "Kadai Gravy, Cilantro Cress",
+          "dietary_info": ["Gluten-Free", "Vegan Available"]
+        },
+        {
+          "name": "Grilled Prawn",
+          "description": "Mangolorean Ghee Roast Masala",
+          "dietary_info": ["Gluten-Free"]
+        }
+      ],
+      "Dessert": [
+        {
+          "name": "Gulab Jamun Cheesecake",
+          "description": "Jaggery Caramel, Pistachios, Parle G Cookie Crust",
+          "dietary_info": ["Contains Nuts"]
+        },
+        {
+          "name": "Mango Sorbet",
+          "description": "",
+          "dietary_info": ["Vegan", "Gluten-Free"]
+        },
+        {
+          "name": "Gelato",
+          "description": "Choose Vanilla or Pistachio"
+        }
+      ]
+    },
+    "Dessert": [
+    {
+      "name": "Saffron Cheesecake",
+      "description": "Baked White Chocolate Saffron Cheesecake, Motichoor Ladoo, Cardamom-Saffron Cream, Rose",
+      "price": 14,
+      "dietary_info": ["Contains Nuts", "Contains Gluten & Dairy"],
+      "notes": ["Almond, Pistachio"]
+    },
+    {
+      "name": "Gulab Jamun Cheesecake",
+      "description": "Caramel, Pistachio Crumble, Parle G Crust",
+      "price": 14,
+      "dietary_info": ["Contains Nuts", "Contains Gluten & Dairy"]
+    },
+    {
+      "name": "Payasam",
+      "description": "Rice pudding, Cashews & Almond Crumble, Mix Berries",
+      "price": 12,
+      "dietary_info": ["Contains Nuts", "Contains Gluten & Dairy"]
+    },
+    {
+      "name": "Sorbet",
+      "description": "Mango, House-Churned",
+      "price": 5,
+      "dietary_info": ["Vegan", "Gluten-Free"]
+    },
+    {
+      "name": "Gelato",
+      "description": "Vanilla, Chocolate, Pistachio",
+      "price": 5,
+      "dietary_info": ["Nut Allergy"]
+    }
+  ],
+  "Coffee & Tea": 
+  [
+    {
+      "name": "Masala Chai",
+      "description": "Tea with aromatic spices, ginger and milk (Kettle serves 2)",
+      "price": 8
+    },
+    {
+      "name": "Hot Tea",
+      "description": "Jasmine Green Tea (Contains Caffeine), Green Tea (Contains Caffeine), Lemon & Ginger Tea, Peppermint Tea, Chamomile (Contains No Caffeine)",
+      "price": 4
+    },
+    {
+      "name": "Espresso",
+      "description": "Lavazza Espresso",
+      "price": 4
+    },
+    {
+      "name": "Double Espresso",
+      "description": "Lavazza",
+      "price": 6
+    }
+  ],
+  "Dessert Wine | Apéritifs": 
+  [
+    {
+      "name": "Fonseca Port Tawny 10YR",
+      "description": "NV Lustau Los Arcos. Jerez, Spain",
+      "price": 11
+    },
+    {
+      "name": "Sauternes",
+      "description": "2013 Clos L'Abeilley. Gironde, France. (375ml)",
+      "price": 18,
+      "bottle_price": 70
+    },
+    {
+      "name": "Ramos Pinto Port 30YR",
+      "description": "",
+      "price": 22
+    },
+    {
+      "name": "Chareau Original",
+      "description": "Saint-Ciers Du Taillon",
+      "price": 17
+    },
+    {
+      "name": "Fernet-Branca",
+      "description": "",
+      "price": 11
+    },
+    {
+      "name": "Aperol",
+      "description": "",
+      "price": 11
+    },
+    {
+      "name": "Campari",
+      "description": "",
+      "price": 12
+    },
+    {
+      "name": "Montenegro Amaro",
+      "description": "",
+      "price": 13
+    }
+  ] 
+}
+  

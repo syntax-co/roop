@@ -6,12 +6,17 @@ import { useState } from "react";
 export default function App({ Component, pageProps }) {
 
   const [showSide,setShowSide] = useState(false)
+  const [scrollLock,setScrollLock] = useState(false)
 
 
   return (
     <div className="app-body
     relative
     overflow-x-hidden"
+
+    style={{
+      
+    }}
     >
 
 
