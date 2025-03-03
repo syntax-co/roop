@@ -48,3 +48,15 @@ body {
   xl:px-10 
   ;
 }
+
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  overflow: -moz-scrollbars-none; /* Firefox */
+  -webkit-scrollbar: none; /* Chrome, Safari, Opera */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}

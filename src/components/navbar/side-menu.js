@@ -62,7 +62,13 @@ const SideMenu = ({showSide,close}) => {
         top-0 z-10
         px-12 py-20
         flex flex-col
-        backdrop-blur-lg" // Added backdrop-blur-sm class
+        backdrop-blur-lg
+        
+        sm:w-screen
+        md:w-[60vw]
+        lg:w-[40vw]
+        xl:w-[20vw]
+        " // Added backdrop-blur-sm class
 
         initial={{
             right:'-100vw'

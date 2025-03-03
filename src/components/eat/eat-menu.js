@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import CatPicker from "./cat-picker";
-import MenuSection from "./menu-section";
+import CatPicker from "../misc/cat-picker";
+import MenuSection from "../misc/menu-section";
 import { AnimatePresence, motion } from "framer-motion";
 
 
@@ -22,6 +22,7 @@ const EatMenu = ({eatmenu}) => {
     }
 
     useEffect(() => {
+
         if (!showMenu) {
             setShowMenu(true)
         }
@@ -29,10 +30,16 @@ const EatMenu = ({eatmenu}) => {
 
     return (
         <div className="
+        
+        sm:px-0
+        md:px-10
+        lg:px-20
+        xl:px-32
+
         ">
             
             <CatPicker 
-            eatmenu={eatmenu} 
+            menu={eatmenu} 
             section={section}
             setSection={changeSection} 
             />

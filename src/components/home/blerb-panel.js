@@ -31,7 +31,7 @@ const BlerbPanel = () => {
             sm:text-2xl 
             md:text-2xl 
             lg:text-3xl 
-            xl:text-4xl
+            xl:text-3xl
             
             "
             >

@@ -4,8 +4,8 @@
         "drink":"/drink",
         "reservations":"/reservations",
         "more":{
-            "tasting":"/tasting",
-            "events":"/events",
+            "tasting":"/tasting-menu",
+            "events":"/private-events",
             "gallery":"/gallery"
         }
     }

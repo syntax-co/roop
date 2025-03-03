@@ -1,0 +1,648 @@
+{   
+    "Coctails":{
+
+        "Cocktail Of The Week": [
+          {
+            "name": "Smokey Nimbu",
+            "description": "Vodka, Mezcal, Lime, Jalapeno Syrup, Black Salt",
+            "price": 16,
+            "featured": false
+          },
+          {
+            "name": "Sangria",
+            "description": "Red wine and whiskey blend with fresh fruits",
+            "price": 16,
+            "featured": false
+          }
+        ],
+        "Cocktails": [
+          {
+            "name": "Pink City",
+            "description": "Jalapeño Tequila, Guava, Chili, Lime, ROOH Masala",
+            "price": 16,
+            "featured": false
+          },
+          {
+            "name": "Hot n' Gold",
+            "description": "Passion Fruit Liquor, Blanco Tequila & Chili-Infused Mango Purée",
+            "price": 16,
+            "featured": false
+          },
+          {
+            "name": "Queen of Spice",
+            "description": "Whiskey, Papaya, Persimmon, Cardamom, Mint",
+            "price": 16,
+            "featured": false
+          },
+          {
+            "name": "Road to Kerala",
+            "description": "Mezcal Infused With Cinnamon, Coconut, Pineapple, Banana",
+            "price": 16,
+            "featured": false
+          },
+          {
+            "name": "Hyderabad Tonic",
+            "description": "Turmeric-Infused Aviation Gin, Orange & Thyme Syrup, Q Drinks Grapefruit Tonic",
+            "price": 16,
+            "featured": false
+          },
+          {
+            "name": "Malabar Old Fashioned",
+            "description": "Coconut-Washed Bourbon, Coffee, Maple, Bitters, *Coconut Oil May Contain Trace Amounts of Tree Nuts, Peanuts.",
+            "price": 16,
+            "featured": false
+          },
+          {
+            "name": "Betel Collins",
+            "description": "Vodka, Chamomile, Chareau, Midori & Rose",
+            "price": 16,
+            "featured": false
+          },
+          {
+            "name": "Hara Spritz",
+            "description": "Sauvignon Blanc, Moscato, Melon Liqueur",
+            "price": 15,
+            "featured": false
+          },
+          {
+            "name": "Banana Belt",
+            "description": "Whiskey, Amaro, Banana, Cold Brew",
+            "price": 17,
+            "featured": false
+          }
+        ],
+        "Brunch Cocktails": [
+          {
+            "name": "Mango Mimosa",
+            "description": "Mango, Ginger, Cardamom, Mint, Sparkling Cava (Available Sunday & Saturday 1-5 pm. Regular price $14)",
+            "price": 10,
+            "featured": false
+          },
+          {
+            "name": "Indian 75",
+            "description": "Jin Jiji Dry Gin, Honey, Lime, Curry Bitters, Cava",
+            "price": 14,
+            "featured": false
+          },
+          {
+            "name": "Rooh Mary",
+            "description": "Housemade Bloody Mary Mix, BBQ Flavored Vodka (Available Sunday & Saturday 1-5 pm. Regular price $14)",
+            "price": 8,
+            "featured": false
+          }
+        ],
+        "Mocktails/Soft Drinks": [
+          {
+            "name": "Jasmine Oasis",
+            "description": "Ritual Zero Proof Gin, Jasmine Melon Syrup, Aloe Vera Juice, Lime",
+            "price": 12,
+            "featured": false
+          },
+          {
+            "name": "Saffron Dream",
+            "description": "Ritual Zero Proof Tequila, Saffron Ginger Syrup, Carrot Juice, Lapsong Souchong Tea",
+            "price": 12,
+            "featured": false
+          },
+          {
+            "name": "Cool Cucumber",
+            "description": "Cucumber, Mint, Lime, Soda",
+            "price": 8,
+            "featured": false
+          },
+          {
+            "name": "Nagpur Narangi",
+            "description": "Blood Orange, Lime, Soda",
+            "price": 8,
+            "featured": false
+          },
+          {
+            "name": "Pink City Mocktail",
+            "description": "Guava, Chili, Lime, ROOH Masala",
+            "price": 8,
+            "featured": false
+          },
+          {
+            "name": "Lemonade",
+            "description": "",
+            "price": 4,
+            "featured": false
+          },
+          {
+            "name": "Espresso",
+            "description": "Lavazza Espresso",
+            "price": 4,
+            "featured": false
+          },
+          {
+            "name": "Pellegrino",
+            "description": "Sparkling Water",
+            "price": {"500 ML": 8, "1 L":12, "750 ML":10},
+            "featured": false
+          },
+          {
+            "name": "Acqua Panna",
+            "description": "Still Italian Spring Water 1L",
+            "price": 10,
+            "featured": false
+          }
+        ]
+    },
+    "Spirits":{
+        "Gin": [
+            {
+                "name": "Botanist",
+                "price": 14,
+                "description": "Islay, Scotland",
+                "featured": false
+            },
+            {
+                "name": "Drumshanbo Gunpowder",
+                "price": 13,
+                "description": "Irish Gin",
+                "featured": false
+            },
+            {
+                "name": "Hendrick's",
+                "price": 14,
+                "description": "Scotland",
+                "featured": false
+            },
+            {
+                "name": "Bombay Saphire",
+                "price": 14,
+                "description": "Hampshire, England",
+                "featured": false
+            },
+            {
+                "name": "Opihr",
+                "price": 12,
+                "description": "Warrington, England",
+                "featured": false
+            },
+            {
+                "name": "Castle & Key Roots of Ruin",
+                "price": 12,
+                "description": "Kentucky",
+                "featured": false
+            }
+        ],
+        "Vodka": [
+            {
+                "name": "Layback Sol Oasis Vodka",
+                "price": 12,
+                "description": "San Diego, CA",
+                "featured": false
+            },
+            {
+                "name": "Grey Goose",
+                "price": 16,
+                "description": "Picardy, France",
+                "featured": false
+            },
+            {
+                "name": "Ketel One",
+                "price": 13,
+                "description": "Schiedam, Netherlands",
+                "featured": false
+            },
+            {
+                "name": "Smoke Lab Vodka - Black",
+                "price": 12,
+                "description": "Aniseed Flavored Indian Vodka",
+                "featured": false
+            },
+            {
+                "name": "Smoke Lab Vodka White",
+                "price": 12,
+                "description": "Basmati Rice Indian Vodka",
+                "featured": false
+            },
+            {
+                "name": "Titos Handmade",
+                "price": 11,
+                "description": "Austin, Texas",
+                "featured": false
+            },
+            {
+                "name": "Smoke Lab Vodka - Saffron",
+                "price": 12,
+                "description": "Goa, India",
+                "featured": false
+            }
+        ],
+        "Indian Whiskey Flight": [
+            {
+                "name": "Indian Whiskey Flight",
+                "price": 35,
+                "description": "Three 1 Ounce Pours of Select Indian WhiskeysAmrut Single Malt, Amrut Aatma, Paul John Brilliance",
+                "featured": false
+            }
+        ],
+        "Indian Whiskey": [
+            {
+                "name": "Amrut Cask Strength Single Malt",
+                "price": 20,
+                "description": "Kambipura, Bengaluru, India",
+                "featured": false
+            },
+            {
+                "name": "Amrut Fusion",
+                "price": 18,
+                "description": "Kambipura, Bengaluru, India",
+                "featured": false
+            },
+            {
+                "name": "Amrut Peated Indian Single Malt",
+                "price": 16,
+                "description": "Kambipura, Bengaluru, India",
+                "featured": false
+            },
+            {
+                "name": "Amrut Portonova",
+                "price": 32,
+                "description": "India",
+                "featured": false
+            },
+            {
+                "name": "Amrut Single Malt",
+                "price": 14,
+                "description": "Bengaluru, India",
+                "featured": false
+            },
+            {
+                "name": "Mithuna Single Malt",
+                "price": 70,
+                "description": "By Paul John, Goa, India",
+                "featured": false
+            },
+            {
+                "name": "Paul John Classic",
+                "price": 28,
+                "description": "Select Cask, Goa, India",
+                "featured": false
+            },
+            {
+                "name": "Paul John Edited",
+                "price": 18,
+                "description": "Goa, India",
+                "featured": false
+            },
+            {
+                "name": "Paul John Nirvana",
+                "price": 12,
+                "description": "Goa, India",
+                "featured": false
+            },
+            {
+                "name": "Paul John Peated",
+                "price": 29,
+                "description": "Select Cask, Goa, India",
+                "featured": false
+            }
+        ]
+    },
+    "Wine":{
+      "Sparkling Wine": [
+        {
+          "name": "Albet i Noya Brut Reserva",
+          "price": { "glass": 14, "bottle": 56 },
+          "description": "Macabeo | Parellada | Xarel-lo Penedes, Spain 2021",
+          "featured": false
+        },
+        {
+          "name": "Victorine de Chastenay Brut Rosé",
+          "price": { "glass": 16, "bottle": 64 },
+          "description": "\"Brut Rosé\" Pinot Noir Crémant De Bourgogne, France 2020",
+          "featured": false
+        },
+        {
+          "name": "Bricco Riella Moscato D'Asti",
+          "price": { "glass": 12, "bottle": 48 },
+          "description": "Piedmont, Italy 2021",
+          "featured": false
+        },
+        {
+          "name": "Ayala (375ml) Brut Champagne",
+          "price": 70,
+          "description": "70% Pinot Noir | Chardonnay | Pinot Meunier \"Brut Majeur\" Champagne, France NV",
+          "featured": false
+        },
+        {
+          "name": "Jean-Charles Boisset",
+          "price": 75,
+          "description": "Chardonnay | Pinot Noir \"N°21 Crémant de Bourgogne Brut\" Burgundy, France NV",
+          "featured": false
+        },
+        {
+          "name": "Collet Brut Champagne",
+          "price": 85,
+          "description": "Pinot Meunier | Chardonnay | Pinot Noir \"Brut\" Champagne, France NV",
+          "featured": false
+        },
+        {
+          "name": "Lanson Brut Champagne",
+          "price": 110,
+          "description": "Pinot Noir | Chardonnay | Pinot Meunier \"Brut\" Champagne, France NV",
+          "featured": false
+        },
+        {
+          "name": "Lanson Brut Rosé",
+          "price": 125,
+          "description": "Pinot Noir | Chardonnay | Pinot Meunier \"Brut Rosé-Le Rosé\" Champagne, France NV",
+          "featured": false
+        },
+        {
+          "name": "Billecart-Salmon Brut Rosé",
+          "price": 195,
+          "description": "Chardonnay | Pinot Meunier | Pinot Noir Champagne, France NV",
+          "featured": false
+        }
+      ],
+      "White Wine": [
+        {
+          "name": "Babich Sauvignon Blanc",
+          "price": { "glass": 15, "bottle": 58 },
+          "description": "Marlborough, New Zealand 2023",
+          "featured": false
+        },
+        {
+          "name": "Rain Sauvignon Blanc",
+          "price": { "glass": 15, "bottle": 58 },
+          "description": "2023 Marlborough, New Zealand",
+          "featured": false
+        },
+        {
+          "name": "Leth Gruner Veltliner",
+          "price": { "glass": 14, "bottle": 56 },
+          "description": "2023 Ried Steinagrund, Austria",
+          "featured": false
+        },
+        {
+          "name": "Bortoluzzi Pinot Grigio",
+          "price": { "glass": 16, "bottle": 60 },
+          "description": "Delle Venezie, Veneto, Italy, 2021",
+          "featured": false
+        },
+        {
+          "name": "Joseph Drouhin Chardonnay",
+          "price": { "glass": 17, "bottle": 68 },
+          "description": "Mâcon-Villages, Burgundy, France, 2021",
+          "featured": false
+        },
+        {
+          "name": "Selbach Riesling",
+          "price": { "glass": 15, "bottle": 58 },
+          "description": "\"Kabinett\" Mosel, Germany 2022",
+          "featured": false
+        }
+      ],
+      "Rosé & Orange": [
+        {
+          "name": "By.OTT",
+          "price": { "glass": 13, "bottle": 52 },
+          "description": "Côtes Provence, France 2021",
+          "featured": false
+        },
+        {
+          "name": "Domaine Ott Château de Selle",
+          "price": 99,
+          "description": "Rosé of Grenache | Cinsault | Syrah | Mourvédre Provence, France 2021",
+          "featured": false
+        },
+        {
+          "name": "Flowers",
+          "price": 65,
+          "description": "Rosé of Pinot Noir Sonoma Coast, California 2022",
+          "featured": false
+        }
+      ],
+      "Red Wine": [
+        {
+          "name": "Domaine de la Janasse",
+          "price": { "glass": 14, "bottle": 56 },
+          "description": "Grenache | Syrah | Mourvedre | Cinsault | Carignan Côtes du Rhône Réserve Rhône Valley, France 2021",
+          "featured": false
+        },
+        {
+          "name": "Valravn Pinot Noir",
+          "price": { "glass": 16, "bottle": 64 },
+          "description": "Sonoma County, California 2021",
+          "featured": false
+        },
+        {
+          "name": "Thurston Wolfe Cabernet Sauvignon",
+          "price": { "glass": 17, "bottle": 68 },
+          "description": "\"The Teacher\" Horse Heaven Hills, Washington, 2021",
+          "featured": false
+        },
+        {
+          "name": "Mezzacorona Castel Firmian",
+          "price": { "glass": 14, "bottle": 56 },
+          "description": "Teroldego Rotaliano \"Rubino\" Trentino Alto Adige, Italy 2020",
+          "featured": false
+        },
+        {
+          "name": "The Paring Red",
+          "price": 72,
+          "description": "2019 Bordeaux Red Blends Santa Ynez Valley, CA",
+          "featured": false
+        },
+        {
+          "name": "Domaine de la Solitude",
+          "price": 150,
+          "description": "Grenache | Syrah | Mourvèdre | Counoise | Cinsault Châteauneuf-du-Pape, France 2021",
+          "featured": false
+        },
+        {
+          "name": "Villa Creek",
+          "price": 165,
+          "description": "Mourvèdre | Syrah | Grenache \"High Road-James Berry Vineyard\" Paso Robles, California 2019",
+          "featured": false
+        },
+        {
+          "name": "Zuccardi Malbec",
+          "price": 250,
+          "description": "\"Finca Piedra Infinita\" Mendoza, Argentina 2017",
+          "featured": false
+        }
+      ],
+      "Dessert Wine": [
+        {
+          "name": "Bricco Riella Moscato D'Asti",
+          "price": { "glass": 12, "bottle": 48 },
+          "description": "Moscato D'Asti Piedmont, Italy 2021",
+          "featured": false
+        },
+        {
+          "name": "Chateau d'Orignac Pineau Des Charentes",
+          "price": { "glass": 17 },
+          "description": "Saint-Ciers Du Taillon France 10yrs",
+          "featured": false
+        }
+      ]
+    },
+    "Beer":{
+      "Beer": [
+        {
+          "name": "Chimay Blue Grand Reserve",
+          "price": 15,
+          "description": "Scourmont Abbey, a Trappist monastery in Chimay, Hainaut, Belgium",
+          "featured": false
+        },
+        {
+          "name": "Noon Whistle Hazy IPA",
+          "price": 10,
+          "description": "Lombard, IL",
+          "featured": false
+        },
+        {
+          "name": "Ayinger Pils",
+          "price": 10,
+          "description": "Crisp pale lager, Germany ABV 5.3%",
+          "featured": false
+        },
+        {
+          "name": "Dovetail Helles Lager",
+          "price": 10,
+          "description": "Helles Lager Chicago, IL",
+          "featured": false
+        },
+        {
+          "name": "Avalanche",
+          "price": 8,
+          "description": "Amber Ale, Caramel Malt body with a light hop character, Colorado 5.0% ABV",
+          "featured": false
+        },
+        {
+          "name": "Clausthaler",
+          "price": 7,
+          "description": "Alcohol Free Germany",
+          "featured": false
+        }
+      ]
+    },
+    "Non-Alcoholic":{
+      "Non-Alcoholic": [
+        {
+          "name": "Saffron Dream",
+          "price": 12,
+          "description": "Ritual Zero Proof Tequila, Saffron Ginger Syrup, Carrot Juice, Lapsang Souchong Tea",
+          "featured": true
+        },
+        {
+          "name": "Mango Lassi",
+          "price": 10,
+          "description": "Alfonso mango lassi topped with pistachio and rose petals. Contains Dairy and Nuts.",
+          "featured": false
+        },
+        {
+          "name": "Jasmine Oasis",
+          "price": 12,
+          "description": "Ritual Zero Proof Gin, Jasmine Melon Syrup, Aloe Vera Juice, Lime",
+          "featured": true
+        },
+        {
+          "name": "Pink City Mocktail",
+          "price": 8,
+          "description": "Guava, Chili, Lime, ROOH Masala",
+          "featured": false
+        },
+        {
+          "name": "Cool Cucumber",
+          "price": 8,
+          "description": "Cucumber, Lime, Soda",
+          "featured": false
+        },
+        {
+          "name": "Nagpur Narangi",
+          "price": 8,
+          "description": "Blood Orange, Lime, Soda",
+          "featured": false
+        },
+        {
+          "name": "Lemonade",
+          "price": 4,
+          "description": "",
+          "featured": false
+        },
+        {
+          "name": "Coke/Diet Coke/Sprite",
+          "price": 6,
+          "description": "",
+          "featured": false
+        },
+        {
+          "name": "Pellegrino",
+          "price": { "500ml": 8, "750ml": 10, "1L": 12 },
+          "description": "Sparkling Water",
+          "featured": false
+        },
+        {
+          "name": "Acqua Panna",
+          "price": { "1L": 10 },
+          "description": "Still Water",
+          "featured": false
+        }
+      ]
+    },
+    "Happy Hour":{
+      "Happy Hour": [
+          {
+            "name": "Signature Cocktails",
+            "price": 10,
+            "description": "All of our Signature Cocktails",
+            "featured": false
+          },
+          {
+            "name": "Sangria",
+            "price": 10,
+            "description": "Red wine and whiskey blend with fresh fruits",
+            "featured": false
+          },
+          {
+            "name": "White",
+            "price": 10,
+            "description": "SELBACH \"Kabinett\" Riesling Mosel, Germany 2021",
+            "featured": false
+          },
+          {
+            "name": "Red",
+            "price": 10,
+            "description": "DOMAINE DE LA JANASSE Côtes du Rhône Réserve Grenache | Syrah | Mourvedre | Cinsault | Carignan Rhône Valley, France 2021 MEZZACORONA CASTEL FIRMIAN Teroldego Rotaliano \"Rubino\" Trentino Alto Adige, Italy 2020",
+            "featured": false
+          },
+          {
+            "name": "Happy Hour Beer",
+            "price": 7,
+            "description": "Noon Whistle Hazy IPA",
+            "featured": false
+          },
+          {
+            "name": "Chili Cheese Kulcha",
+            "price": 8,
+            "description": "Tillamook Cheddar, Shishito Pepper. Add a Chutney for $3 each: Mint & Cilantro, Chili & Peanut, Mango Tomatillo, Tamarind, Habanero",
+            "featured": false
+          },
+          {
+            "name": "Cauliflower Kolidwada",
+            "price": 6,
+            "description": "Lemon Aioli, Podi Masala. Vegan and Gluten-Free",
+            "featured": false
+          },
+          {
+            "name": "Chicken 65",
+            "price": 6,
+            "description": "Curry Mayo",
+            "featured": false
+          }
+      ]
+      
+    }
+    
+    
+    
+    
+  
+  }
+  
