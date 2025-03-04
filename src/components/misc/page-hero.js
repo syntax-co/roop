@@ -32,7 +32,7 @@ const PageHero = ({label,image}) => {
             "
 
             style={{
-                background:`url(/images/${image&&image})`,
+                background:`url(images/${image&&image})`,
                 backgroundPosition:'center',
                 backgroundSize:'cover',
                 backgroundAttachment: 'fixed'

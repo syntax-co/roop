@@ -39,7 +39,7 @@ const TasingMenUPanel = () => {
             "
 
             style={{
-                backgroundImage:'url(/images/white-bowl-1.jpg)',
+                backgroundImage:'url(images/white-bowl-1.jpg)',
             }}
             ></div>
 

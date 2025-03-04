@@ -29,7 +29,7 @@ const AlaCartePanel = ({showForm,handleClick}) => {
         "
 
         style={{
-            backgroundImage:'url(/images/lady.jpg)',
+            backgroundImage:'url(images/lady.jpg)',
             // boxShadow:'inset 0px 0px 10px 0px rgba(0,0,0,0.5)',
         }}
 

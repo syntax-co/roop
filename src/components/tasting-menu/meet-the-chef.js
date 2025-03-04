@@ -33,7 +33,7 @@ const MeetTheChef = () => {
             "
 
             style={{
-                background:'url(/images/chef.jpg)',
+                background:'url(images/chef.jpg)',
                 backgroundPosition:'center',
                 backgroundSize:'cover',
             }}
