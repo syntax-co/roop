@@ -82,7 +82,7 @@ const EventGallary = () => {
                 xl:mx-0"
 
                 style={{
-                    backgroundImage:'url(/images/room-1.png)',
+                    backgroundImage:'url(/images/room-1.jpg)',
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}
@@ -146,7 +146,7 @@ const EventGallary = () => {
                 "
 
                 style={{
-                    backgroundImage:'url(/images/bar.png)',
+                    backgroundImage:'url(/images/bar.jpg)',
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}
@@ -176,7 +176,7 @@ const EventGallary = () => {
                 xl:mx-0"
 
                 style={{
-                    backgroundImage:'url(/images/room-2.png)',
+                    backgroundImage:'url(/images/room-2.jpg)',
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}
@@ -232,7 +232,7 @@ const EventGallary = () => {
                 "
 
                 style={{
-                    backgroundImage:'url(/images/room-3.png)',
+                    backgroundImage:'url(/images/room-3.jpg)',
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}

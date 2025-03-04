@@ -29,7 +29,7 @@ const EventsPanel = ({showForm,handleClick}) => {
         "
 
         style={{
-            backgroundImage:'url(/images/tea-sets.png)',
+            backgroundImage:'url(/images/tea-sets.jpg)',
         }}
 
 

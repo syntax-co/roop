@@ -15,7 +15,7 @@ const Tile1 = () => {
 
         " 
         style={{
-            backgroundImage:'url(images/roop-image-1.png)'
+            backgroundImage:'url(images/roop-image-1.jpg)'
         }}
         >
 

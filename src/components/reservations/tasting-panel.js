@@ -11,7 +11,7 @@ const TastingPanel = () => {
         "
 
         style={{
-            // backgroundImage:'url(./images/room-2.png)',
+            // backgroundImage:'url(./images/room-2.jpg)',
             // boxShadow:'inset 0px 0px 10px 0px rgba(108, 95, 95, 0.5)',
         }}
         >

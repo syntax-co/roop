@@ -33,7 +33,7 @@ const Drink = () => {
 
             <PageHero 
             label={'Drink'}
-            image='wine-bottles-1.png'
+            image='wine-bottles-1.jpg'
             />
 
             
