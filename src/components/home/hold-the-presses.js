@@ -153,12 +153,12 @@ const HoldThePresses = () => {
 
                 <PressTile 
                 title={'Embracing and Defying Tradition'}
-                image={'/images/phil-vettel-review.jpg'}
+                image={'images/phil-vettel-review.jpg'}
                 path={'https://www.chicagotribune.com/2019/10/03/review-roohs-progressive-indian-cooking-embraces-tradition-while-defying-it/'}
                 /> 
                 <PressTile 
                 title={'A Michelin Guide Restaurant in Chicago'}
-                image={'/images/michelin-guide.jpg'}
+                image={'images/michelin-guide.jpg'}
                 path={'https://guide.michelin.com/us/en/illinois/chicago/restaurant/roop-chicago'}
                 />
 
