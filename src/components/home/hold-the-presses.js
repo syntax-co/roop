@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 import { useState } from "react";
-
+import Image from 'next/image';
 
 
 const PressTile = ({title,image,path}) => {
@@ -11,11 +11,15 @@ const PressTile = ({title,image,path}) => {
 
     return (
         <motion.div
-            className="flex-1 m-6 
+            className=" aspect-square m-6 
             flex flex-col text-white
-            font-primary
+            font-primary 
             
-            
+            sm:w-[82vw]
+            md:w-[82vw]
+            lg:w-[450px]
+            xl:w-[450px]
+
             "
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -43,13 +47,11 @@ const PressTile = ({title,image,path}) => {
                 router.push(path);
             }}
             >
-                <motion.div className="flex-1"
-                
-                style={{
-                    backgroundImage: `url(${image})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                }}
+                <Image className="w-full h-full"
+                src={image}
+                width={400}
+                height={200}
+                style={{ objectFit: 'cover', objectPosition: 'center' }}
 
                 whileHover={{
                     scale: 1.02,
@@ -57,9 +59,7 @@ const PressTile = ({title,image,path}) => {
                         duration: 0.5
                     }
                 }}
-                >
-                    
-                </motion.div>
+                />
             </motion.div>
         </motion.div>
     );
