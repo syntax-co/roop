@@ -7,9 +7,25 @@ const EventsPanel = ({showForm,handleClick}) => {
 
 
     return (
-        <motion.div className="w-[48%] h-full
-        ml-auto rounded-lg overflow-iddenx
+        <motion.div className="
+        ml-auto rounded-lg overflow-hidden
         bg-center bg-cover 
+
+        
+        sm:ml-0
+        md:ml-0
+        lg:ml-auto
+        xl:ml-auto
+
+        sm:h-[35vh]
+        md:h-[35vh]
+        lg:h-full
+        xl:h-full
+
+        sm:w-[95vw]
+        md:w-[85%]
+        lg:w-[48%]
+        xl:w-[48%]
         "
 
         style={{

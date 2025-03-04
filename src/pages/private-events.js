@@ -1,35 +1,40 @@
+import PageHero from "@/components/misc/page-hero";
+import EventGallary from "@/components/private-events/event-space-gallery";
+import EventForm from "@/components/private-events/private-event-form";
+import { motion } from "framer-motion";
 
 
 
 
 
-const private_eventsrivateEvents = () => {
+const PrivateEvents = () => {
     return (
-        <div className=" mb-20
-        h-[70vh] flex flex-col
-        left-0 overflow-hidden
-        
-        sm:rounded-none
-        md:rounded-2xl
-        lg:rounded-2xl
-        xl:rounded-2xl
+        <motion.div className="
+        page-body 
+        flex flex-col 
+        h-fit
+        relative left-0"
 
-        
-
-        sm:w-screen
-        md:w-full
-        lg:w-full
-        xl:w-full
-
-        sm:absolute 
-        md:relative
-        lg:relative
-        xl:relative
-        "
+        initial={{opacity: 0}}
+        animate={{opacity: 1}}
+        exit={{opacity: 0}}
         >
 
-        </div>
+            <PageHero
+            label={'Private Events'}
+            image='tea-kettle.png'
+            />
+
+
+
+            <EventForm />
+
+
+            <EventGallary />
+
+
+        </motion.div>
     );
 }
  
-export default private_eventsrivateEvents;
+export default PrivateEvents;

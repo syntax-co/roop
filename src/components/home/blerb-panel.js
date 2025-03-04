@@ -5,11 +5,18 @@ import { motion } from "framer-motion";
 
 const BlerbPanel = () => {
     return (
-        <div className="w-full h-[70vh] my-20
+        <div className=" my-20 mx-auto
         flex flex-col justify-center rounded-xl
         relative left-0 bg-light
         font-primary
         
+
+
+        sm:w-[95vw]
+        md:w-[95vw]
+        lg:w-full
+        xl:w-full
+
         sm:h-[90vh]
         md:h-[90vh]
         lg:h-[70vh]

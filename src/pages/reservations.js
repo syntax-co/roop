@@ -34,7 +34,18 @@ const Reservations = () => {
 
             <motion.div key={'reservations'}
             className="w-full h-[65vh]
-            flex items-center"
+            flex items-center
+            
+            sm:h-fit
+            md:h-fit
+            lg:h-[65vh]
+            xl:h-[65vh]
+
+            sm:flex-col
+            md:flex-col
+            lg:flex-row
+            xl:flex-row
+            "
             
             initial={{opacity:0}}
             animate={{opacity:1}}

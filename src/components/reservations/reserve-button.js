@@ -7,9 +7,10 @@ const ReserveButton = ({label='Reserve',_type='ala-carte',onClick,bgColor='#3b3b
     const res_redirect = {
         'ala-carte':'https://www.opentable.com/restref/client/?restref=1051237&lang=en-US&ot_source=Restaurant%20website&corrid=94847de0-5467-4396-beaf-9661335bf13b',
         'tasting-menu':'/tasting-menu',
+        'tasting-menu-booking':'https://www.exploretock.com/roohchicago/',
         'private-events':'/private-events'
     }
-
+    
     return (
         <div 
         className={
@@ -28,8 +29,12 @@ const ReserveButton = ({label='Reserve',_type='ala-carte',onClick,bgColor='#3b3b
         }}
         >
             <div className="text-light text-center
-            text-lg h-fit
-            font-display"
+            text-base h-fit
+            font-display
+            
+            
+
+            "
             >
                 {label}
             </div>

@@ -10,10 +10,22 @@ const AlaCartePanel = ({showForm,handleClick}) => {
 
 
     return (
-        <motion.div className="w-[48%] h-full
-        rounded-lg bg-light 
-        px-10 py-5 
+        <motion.div className="
+        rounded-lg px-10 py-4 
         flex flex-col bg-top bg-cover
+
+        my-5        
+
+        sm:h-[35vh]
+        md:h-[35vh]
+        lg:h-full
+        xl:h-full
+
+        sm:w-[95vw]
+        md:w-[85%]
+        lg:w-[48%]
+        xl:w-[48%]
+
         "
 
         style={{
@@ -21,12 +33,11 @@ const AlaCartePanel = ({showForm,handleClick}) => {
             // boxShadow:'inset 0px 0px 10px 0px rgba(0,0,0,0.5)',
         }}
 
-        initial={{width:'48%'}}
         
         >
 
             <div className="mt-4 px-3 py-2
-            text-2xl text-light bg-[#13274173]
+            text-2xl text-light bg-royalfade
             rounded-md
             font-display"
             >

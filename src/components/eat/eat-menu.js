@@ -29,14 +29,7 @@ const EatMenu = ({eatmenu}) => {
     }, [section]);
 
     return (
-        <div className="
-        
-        sm:px-0
-        md:px-10
-        lg:px-20
-        xl:px-32
-
-        ">
+        <div className="content-padding">
             
             <CatPicker 
             menu={eatmenu} 

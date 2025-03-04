@@ -3,10 +3,16 @@
 
 const Tile1 = () => {
     return (
-        <div className="w-full h-full
+        <div className="h-full mx-auto
         rounded-3xl relative overflow-hidden
         flex flex-col justify-center
         bg-center bg-cover 
+
+        sm:w-[95vw]
+        md:w-[95vw]
+        lg:w-full
+        xl:w-full
+
         " 
         style={{
             backgroundImage:'url(images/roop-image-1.png)'

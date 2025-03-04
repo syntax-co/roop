@@ -69,9 +69,17 @@ const PressTile = ({title,image,path}) => {
 
 const HoldThePresses = () => {
     return (
-        <div className="w-full h-fit my-32  
+        <div className="my-32 mx-auto
         flex flex-col justify-center
-        font-primary"
+        font-primary
+        
+        sm:w-[95vw]
+        md:w-[95vw]
+        lg:w-full
+        xl:w-full
+        "
+
+        
         >
 
 

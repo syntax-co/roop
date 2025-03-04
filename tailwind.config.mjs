@@ -9,10 +9,15 @@ export default {
     extend: {
       colors: {
         'royal':'#132741',
+        'royalfade':'#13274177',
         'gold':'#F8B013',
         'goldfade':'#f8b01377',
+        'dutch':'#F4E1C1',
+        'dutchfade':'#f4e1c177',
         'light':'#E1E1E1',
-        'greyish':'#BCBCBC'
+        'lightfade':'#e1e1e177',
+        'greyish':'#BCBCBC',
+        'greyishfade':'#bcbcbc77'
       },
     },
     screens: {

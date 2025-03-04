@@ -33,8 +33,7 @@ const CatPicker = ({menu,section,setSection}) => {
     return (
         <div
         className="flex flex-wrap justify-center
-        
-        mt-12 px-3"
+        px-3"
         >
             {
                 menu&&

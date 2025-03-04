@@ -1,14 +1,17 @@
+import ReserveButton from "../reservations/reserve-button";
 
 
 
 
 const BlerbTwo = () => {
     return (
-        <div className="w-full h-[70vh] my-20
+        <div className="my-20 mx-auto py-10
         flex flex-col justify-center rounded-xl
         relative left-0 bg-light
         font-primary
         
+        w-[85%]
+
         sm:h-[90vh]
         md:h-[90vh]
         lg:h-[70vh]
@@ -17,21 +20,30 @@ const BlerbTwo = () => {
         sm:px-6
         md:px-6
         lg:px-10
-        xl:px-16
+        xl:px-24
         "
         >
 
             <div className="text-royal 
-            text-3xl font-bold my-6
+            font-bold my-6
             
+            sm:text-2xl
+            md:text-2xl
+            lg:text-3xl
+            xl:text-3xl
+
             font-display"
             >
                 An innovative indian tasting menu experience
             </div>
 
             <div className="font-bold
-
             my-2
+
+            sm:text-sm
+            md:text-sm
+            lg:text-base
+            xl:text-base
             "
             >
                 Experience Chicago's Best-Kept Culinary Secret – Available in Veg and Non Veg options
@@ -42,7 +54,12 @@ const BlerbTwo = () => {
             </div>
 
             <div className="font-light my-2
-            text-base"
+            
+            sm:text-sm
+            md:text-sm
+            lg:text-base
+            xl:text-base
+            "
             >
                 Our tasting menu, aptly named ROOP, which means beauty, truly embodies the word. Michelin-Star Executive Chef Mike Cornelissen from the Netherlands combines innovative cooking techniques with the rich, authentic flavors of Indian cuisine. Inspired by an in-depth exploration of Indian culture, this menu promises an unparalleled gastronomic experience.
                 <br/>
@@ -51,6 +68,13 @@ const BlerbTwo = () => {
                 <br/>
                 <br/>
                 Optional Wine Pairing and Cocktail Pairing available
+            </div>
+
+            <div className="mt-auto"
+            >
+                <ReserveButton 
+                _type="tasting-menu-booking"
+                />
             </div>
 
         </div>
