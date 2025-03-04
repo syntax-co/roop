@@ -10,7 +10,7 @@ const PressTile = ({title,image,path}) => {
 
     return (
         <motion.div
-            className=" aspect-square m-6 
+            className=" aspect-square mx-auto  my-8
             flex flex-col text-white
             font-primary 
             
@@ -53,7 +53,7 @@ const PressTile = ({title,image,path}) => {
                     backgroundImage: `url(${image})`,
                 }}
 
-                whileHover={{
+                whilehover={{
                     scale: 1.02,
                     transition:{
                         duration: 0.5

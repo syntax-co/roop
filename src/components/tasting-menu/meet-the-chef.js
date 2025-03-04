@@ -1,7 +1,11 @@
+import { useRouter } from "next/router";
 
 
 
 const MeetTheChef = () => {
+
+    const {basePath} = useRouter()
+
     return (
         <div className=" 
         my-20 mx-auto relative
@@ -33,7 +37,7 @@ const MeetTheChef = () => {
             "
 
             style={{
-                background:'url(images/chef.jpg)',
+                background:`url(${basePath? `/${basePath}`:''}/images/chef.jpg)`,
                 backgroundPosition:'center',
                 backgroundSize:'cover',
             }}

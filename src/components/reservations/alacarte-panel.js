@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import ReserveButton from "./reserve-button";
+import { useRouter } from "next/router";
 
 
 
@@ -8,6 +9,7 @@ import ReserveButton from "./reserve-button";
 
 const AlaCartePanel = ({showForm,handleClick}) => {
 
+    const {basePath} = useRouter();
 
     return (
         <motion.div className="
@@ -29,7 +31,7 @@ const AlaCartePanel = ({showForm,handleClick}) => {
         "
 
         style={{
-            backgroundImage:'url(images/lady.jpg)',
+            backgroundImage:`url(${basePath? `/${basePath}`:''}/images/lady.jpg)`,
             // boxShadow:'inset 0px 0px 10px 0px rgba(0,0,0,0.5)',
         }}
 

@@ -1,10 +1,13 @@
 import { motion } from "framer-motion";
 import ReserveButton from "./reserve-button";
+import { useRouter } from "next/router";
 
 
 
 const EventsPanel = ({showForm,handleClick}) => {
-
+    
+    const {basePath} = useRouter();
+    
 
     return (
         <motion.div className="
@@ -29,7 +32,7 @@ const EventsPanel = ({showForm,handleClick}) => {
         "
 
         style={{
-            backgroundImage:'url(images/tea-sets.jpg)',
+            backgroundImage:`url(${basePath? `/${basePath}`:''}/images/tea-sets.jpg)`,
         }}
 
 

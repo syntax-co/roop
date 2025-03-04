@@ -1,10 +1,18 @@
 
-
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 
 
 
 const PageHero = ({label,image}) => {
+    
+    const {basePath} = useRouter();
+
+    useEffect(() => {
+        console.log(basePath);
+    }, []);
+
     return (
         <div className="min-h-[70vh]
             flex-1 left-0
@@ -32,7 +40,7 @@ const PageHero = ({label,image}) => {
             "
 
             style={{
-                background:`url(images/${image&&image})`,
+                background:`url(${basePath? `/${basePath}`:''}/images/${image})`,
                 backgroundPosition:'center',
                 backgroundSize:'cover',
                 backgroundAttachment: 'fixed'

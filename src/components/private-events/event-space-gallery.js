@@ -1,10 +1,14 @@
 import { motion, useInView } from "framer-motion";
+import { useRouter } from "next/router";
 import { useRef } from "react";
 
 
 
 
 const EventGallary = () => {
+    const {basePath} = useRouter();
+
+
     const ref1 = useRef(null);
     const inView= useInView(ref1,{
         once:true,
@@ -82,7 +86,7 @@ const EventGallary = () => {
                 xl:mx-0"
 
                 style={{
-                    backgroundImage:'url(images/room-1.jpg)',
+                    backgroundImage:`url(${basePath? `/${basePath}`:''}/images/room-1.jpg)`,
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}
@@ -99,10 +103,7 @@ const EventGallary = () => {
                 lg:block
                 xl:block
 
-                sm:mx-4
-                md:mx-4
-                lg:mx-0
-                xl:mx-0
+                
                 "
 
                 
@@ -146,7 +147,7 @@ const EventGallary = () => {
                 "
 
                 style={{
-                    backgroundImage:'url(images/bar.jpg)',
+                    backgroundImage:`url(${basePath? `/${basePath}`:''}/images/bar.jpg)`,
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}
@@ -176,7 +177,7 @@ const EventGallary = () => {
                 xl:mx-0"
 
                 style={{
-                    backgroundImage:'url(images/room-2.jpg)',
+                    backgroundImage:`url(${basePath? `/${basePath}`:''}/images/room-2.jpg)`,
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}
@@ -232,7 +233,7 @@ const EventGallary = () => {
                 "
 
                 style={{
-                    backgroundImage:'url(images/room-3.jpg)',
+                    backgroundImage:`url(${basePath? `/${basePath}`:''}/images/room-3.jpg)`,
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}

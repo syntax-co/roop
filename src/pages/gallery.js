@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 
 
 const fileNames = [
@@ -35,11 +36,13 @@ const fileNames = [
 
 const GalleryItem = ({fileName,dex}) => {
 
+    const {basePath} = useRouter();
+
     return(
         <motion.div className=" aspect-square
         "
         style={{
-            backgroundImage: `url(images/gallery/${fileName})`,
+            backgroundImage: `url(${basePath? `/${basePath}`:''}/images/gallery/${fileName})`,
             backgroundSize: "cover",
             backgroundPosition: "center"
         }}
