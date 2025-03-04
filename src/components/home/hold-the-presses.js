@@ -47,11 +47,12 @@ const PressTile = ({title,image,path}) => {
                 router.push(path);
             }}
             >
-                <Image className="w-full h-full"
-                src={image}
-                width={400}
-                height={200}
-                style={{ objectFit: 'cover', objectPosition: 'center' }}
+                <div className="w-full h-full
+                bg-center bg-cover"
+                
+                style={{
+                    backgroundImage: `url(${image})`,
+                }}
 
                 whileHover={{
                     scale: 1.02,
@@ -116,13 +117,13 @@ const HoldThePresses = () => {
 
                 <PressTile 
                 title={'The 38 Essential Chicago Restaurants'}
-                image={'/images/38-essential-rest.jpg'}
+                image={'images/38-essential-rest.jpg'}
                 path={'https://chicago.eater.com/maps/38-best-restaurants-in-chicago'}
                 />
 
                 <PressTile 
                 title={'EATER Awards Restaurant of the Year'}
-                image={'/images/eater-awards.jpg'}
+                image={'images/eater-awards.jpg'}
                 path={'https://chicago.eater.com/2019/11/18/20970432/eater-awards-2019-finalists-best-design-restaurant-chef'}
                 />
 
