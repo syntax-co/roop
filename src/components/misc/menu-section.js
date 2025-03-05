@@ -52,7 +52,7 @@ const MenuSection = ({ title, items }) => {
 
                                                 return(
                                                     <div key={item.name+'_'+key} 
-                                                    className="w-20 text-base "
+                                                    className="w-fit text-base "
                                                     >
                                                         {`${key} - ${item.price[key]}`}
                                                     </div>

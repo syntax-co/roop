@@ -1,8 +1,11 @@
 import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 
 
 
 const TasingMenUPanel = () => {
+    const router = useRouter()
+
     return (
         <div className="w-full
         my-32 relative
@@ -95,6 +98,8 @@ const TasingMenUPanel = () => {
                 whileHover={{
                     backgroundColor:'#ffffff39',
                 }}
+
+                onClick={() => router.push('/eat')}
                 >
                 
                     View Menu
