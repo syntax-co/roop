@@ -31,7 +31,7 @@ const AlaCartePanel = ({showForm,handleClick}) => {
         "
 
         style={{
-            backgroundImage:`url(${basePath? `/${basePath}`:''}/images/lady.jpg)`,
+            backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/lady.jpg)`,
             // boxShadow:'inset 0px 0px 10px 0px rgba(0,0,0,0.5)',
         }}
 

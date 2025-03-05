@@ -32,7 +32,7 @@ const EventsPanel = ({showForm,handleClick}) => {
         "
 
         style={{
-            backgroundImage:`url(${basePath? `/${basePath}`:''}/images/tea-sets.jpg)`,
+            backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/tea-sets.jpg)`,
         }}
 
 

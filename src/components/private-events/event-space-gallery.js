@@ -86,7 +86,7 @@ const EventGallary = () => {
                 xl:mx-0"
 
                 style={{
-                    backgroundImage:`url(${basePath? `/${basePath}`:''}/images/room-1.jpg)`,
+                    backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/room-1.jpg)`,
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}
@@ -147,7 +147,7 @@ const EventGallary = () => {
                 "
 
                 style={{
-                    backgroundImage:`url(${basePath? `/${basePath}`:''}/images/bar.jpg)`,
+                    backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/bar.jpg)`,
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}
@@ -177,7 +177,7 @@ const EventGallary = () => {
                 xl:mx-0"
 
                 style={{
-                    backgroundImage:`url(${basePath? `/${basePath}`:''}/images/room-2.jpg)`,
+                    backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/room-2.jpg)`,
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}
@@ -233,7 +233,7 @@ const EventGallary = () => {
                 "
 
                 style={{
-                    backgroundImage:`url(${basePath? `/${basePath}`:''}/images/room-3.jpg)`,
+                    backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/room-3.jpg)`,
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}

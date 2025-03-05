@@ -42,7 +42,7 @@ const GalleryItem = ({fileName,dex}) => {
         <motion.div className=" aspect-square
         "
         style={{
-            backgroundImage: `url(${basePath? `/${basePath}`:''}/images/gallery/${fileName})`,
+            backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_URL}/images/gallery/${fileName})`,
             backgroundSize: "cover",
             backgroundPosition: "center"
         }}

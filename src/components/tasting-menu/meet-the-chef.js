@@ -37,7 +37,7 @@ const MeetTheChef = () => {
             "
 
             style={{
-                background:`url(${basePath? `/${basePath}`:''}/images/chef.jpg)`,
+                background:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/chef.jpg)`,
                 backgroundPosition:'center',
                 backgroundSize:'cover',
             }}
