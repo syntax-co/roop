@@ -3,7 +3,7 @@
 
 const Tile1 = () => {
     return (
-        <div className="h-full mx-auto
+        <div className="h-[70vh] mx-auto
         rounded-3xl relative overflow-hidden
         flex flex-col justify-center
         bg-center bg-cover 

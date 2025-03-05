@@ -1,3 +1,4 @@
+import Footer from "@/components/misc/footer";
 import Navbar from "@/components/navbar/navbar";
 import SideMenu from "@/components/navbar/side-menu";
 import "@/styles/globals.css";
@@ -34,17 +35,23 @@ export default function App({ Component, pageProps }) {
       close={() => setShowSide(false)}
       />
 
-        <div className="w-full h-[80vh] flex"
-        >
-          <AnimatePresence mode="wait">
-            <Component key={router.asPath}
-            {...pageProps} 
-            />
-          </AnimatePresence>
-        </div>
-      
-    
-    
+      <div className="w-full h-fit flex flex-col
+
+      sm:px-0
+      md:px-10
+      lg:px-32
+      xl:px-52
+      "
+      >
+        <AnimatePresence mode="wait">
+          <Component key={router.asPath}
+          {...pageProps} 
+          />
+        </AnimatePresence>
+      </div>
+
+
+      <Footer />
     </div>
   ) 
 }

@@ -25,10 +25,13 @@ const Navbar = ({onClick}) => {
     return (
         <div className="w-full h-12
         relative 
-        flex flex-col"   
+        flex flex-col
         
-        
-
+        sm:px-0
+        md:px-10
+        lg:px-32
+        xl:px-52
+        "
         >
             
             <div className="flex flex-1 px-3"
