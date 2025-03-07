@@ -28,7 +28,7 @@ const ReserveButton = ({label='Reserve',_type='ala-carte',onClick,bgColor='#3b3b
             // console.log(_type)
         }}
         >
-            <div className="text-light text-center
+            <div className="text-secondary text-center
             text-base h-fit
             font-display
             

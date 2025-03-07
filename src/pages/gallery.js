@@ -3,33 +3,33 @@ import { useRouter } from "next/router";
 
 
 const fileNames = [
-    "38-essential-rest.jpg",
-    "bar.jpg",
-    "crab-plate.jpg",
-    "drinks-1.jpg",
-    "eat-hero.jpg",
-    // "bowl-and-hand-2.jpg",
-    "food-item-1.jpg",
-    "food-item-2.jpg",
-    "food-item-3.jpg",
-    "food-item-4.jpg",
-    "food-item-5.jpg",
-    "food-item-6.jpg",
-    "food-item-7.jpg",
-    "food-item-8.jpg",
-    "food-item-9.jpg",
-    "hand-and-bowl.jpg",
-    "hex-food.jpg",
-    "honey-comb.jpg",
-    "purplish-flowers.jpg",
-    "room-1.jpg",
-    "room-2.jpg",
-    "room-3.jpg",
-    "roop-image-1.jpg",
-    "tea-1.jpg",
-    "tea-kettle.jpg",
-    "tea-sets.jpg",
-    "tm-item-1.jpg"
+    "38-essential-rest.webp",
+    "bar.webp",
+    "crab-plate.webp",
+    "drinks-1.webp",
+    "eat-hero.webp",
+    // "bowl-and-hand-2.webp",
+    "food-item-1.webp",
+    "food-item-2.webp",
+    "food-item-3.webp",
+    "food-item-4.webp",
+    "food-item-5.webp",
+    "food-item-6.webp",
+    "food-item-7.webp",
+    "food-item-8.webp",
+    "food-item-9.webp",
+    "hand-and-bowl.webp",
+    "hex-food.webp",
+    "honey-comb.webp",
+    "purplish-flowers.webp",
+    "room-1.webp",
+    "room-2.webp",
+    "room-3.webp",
+    "roop-image-1.webp",
+    "tea-1.webp",
+    "tea-kettle.webp",
+    "tea-sets.webp",
+    "tm-item-1.webp"
 ];
 
 
@@ -42,7 +42,7 @@ const GalleryItem = ({fileName,dex}) => {
         <motion.div className=" aspect-square
         "
         style={{
-            backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_URL}/images/gallery/${fileName})`,
+            backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_URL}/images/webp-images/gallery/${fileName})`,
             backgroundSize: "cover",
             backgroundPosition: "center"
         }}
@@ -74,6 +74,8 @@ const Gallery = () => {
         <motion.div className="w-full h-fit   mt-14
         grid grid-cols-4 
         
+        
+
         sm:grid-cols-1
         md:grid-cols-2
         lg:grid-cols-3

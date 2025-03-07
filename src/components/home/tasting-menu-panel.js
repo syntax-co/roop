@@ -42,7 +42,7 @@ const TasingMenUPanel = () => {
             "
 
             style={{
-                backgroundImage:'url(images/white-bowl-1.jpg)',
+                backgroundImage:'url(images/webp-images/white-bowl-1.webp)',
             }}
             ></div>
 
@@ -54,7 +54,7 @@ const TasingMenUPanel = () => {
             flex flex-col justify-center
             relative
             font-primary 
-            text-light
+            text-secondary
 
 
             sm:min-h-[80vh]
@@ -70,7 +70,13 @@ const TasingMenUPanel = () => {
 
                 <div className=" mt-20
                 text-4xl  
-                font-display leading-[150%]"
+                font-display leading-[150%]
+                
+                sm:text-3xl
+                md:text-3xl
+                lg:text-4xl
+                xl:text-4xl
+                "
                 >
                     Experience our 
                     <br />
@@ -79,7 +85,9 @@ const TasingMenUPanel = () => {
 
                 <div className=" mt-10
                 
-                font-light"
+                font-light
+                
+                "
                 >
                     Our new tasting menu, aptly named ROOP, which means beauty, 
                     truly embodies the word. Try our 8 course menu, using innovative 
@@ -90,9 +98,14 @@ const TasingMenUPanel = () => {
                 </div>
 
                 <motion.div className="w-fit
-                mt-auto mb-20  px-6 py-2
-                text-light cursor-pointer
+                mt-auto px-6 py-2
+                text-secondary cursor-pointer
                 border border-gold rounded-sm
+
+                sm:mb-4
+                md:mb-8
+                lg:mb-12
+                xl:mb-20
                 "
 
                 whileHover={{

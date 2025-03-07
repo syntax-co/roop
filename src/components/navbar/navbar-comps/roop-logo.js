@@ -12,7 +12,7 @@ const RoopLogo = () => {
         <div className="w-fit h-fit flex 
         relative cursor-pointer
         text-[48px] leading-10
-        font-display "
+        font-logo "
 
         onMouseEnter={() => {setExpand(true)}}
         onMouseLeave={() => {setExpand(false)}}
@@ -32,7 +32,7 @@ const RoopLogo = () => {
             </div>
 
 
-            <motion.div className="text-light
+            <motion.div className="text-secondary
 
             absolute left-[100%]"
 
@@ -50,7 +50,7 @@ const RoopLogo = () => {
             </motion.div>
 
 
-            <motion.div className="text-light
+            <motion.div className="text-secondary
             absolute left-[325%] 
             translate-x-[-12px]"
 

@@ -83,7 +83,7 @@ const HoldThePresses = () => {
         >
 
 
-            <div className="text-light text-4xl
+            <div className="text-secondary text-4xl
             font-display"
             >
                 Hold The Presses
@@ -116,13 +116,13 @@ const HoldThePresses = () => {
 
                 <PressTile 
                 title={'The 38 Essential Chicago Restaurants'}
-                image={'images/38-essential-rest.jpg'}
+                image={'images/webp-images/38-essential-rest.webp'}
                 path={'https://chicago.eater.com/maps/38-best-restaurants-in-chicago'}
                 />
 
                 <PressTile 
                 title={'EATER Awards Restaurant of the Year'}
-                image={'images/eater-awards.jpg'}
+                image={'images/webp-images/eater-awards.webp'}
                 path={'https://chicago.eater.com/2019/11/18/20970432/eater-awards-2019-finalists-best-design-restaurant-chef'}
                 />
 
@@ -153,13 +153,13 @@ const HoldThePresses = () => {
                 
                 <PressTile 
                 title={'Embracing and Defying Tradition'}
-                image={'images/phil-vettel-review.jpg'}
+                image={'images/webp-images/phil-vettel-review.webp'}
                 path={'https://www.chicagotribune.com/2019/10/03/review-roohs-progressive-indian-cooking-embraces-tradition-while-defying-it/'}
                 /> 
 
                 <PressTile 
                 title={'A Michelin Guide Restaurant in Chicago'}
-                image={'images/michelin-guide.jpg'}
+                image={'images/webp-images/michelin-guide.webp'}
                 path={'https://guide.michelin.com/us/en/illinois/chicago/restaurant/roop-chicago'}
                 />
 

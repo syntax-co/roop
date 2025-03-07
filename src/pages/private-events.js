@@ -22,7 +22,7 @@ const PrivateEvents = () => {
 
             <PageHero
             label={'Private Events'}
-            image='tea-kettle.jpg'
+            image='tea-kettle.webp'
             />
 
 

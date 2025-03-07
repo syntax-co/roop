@@ -3,10 +3,15 @@
 
 const Tile1 = () => {
     return (
-        <div className="h-[70vh] mx-auto
+        <div className="mx-auto
         rounded-3xl relative overflow-hidden
         flex flex-col justify-center
         bg-center bg-cover 
+
+        sm:h-[85vh]
+        md:h-[85vh]
+        lg:h-[70vh]
+        xl:h-[70vh]
 
         sm:w-[95vw]
         md:w-[95vw]
@@ -15,7 +20,7 @@ const Tile1 = () => {
 
         " 
         style={{
-            backgroundImage:'url(images/roop-image-1.jpg)'
+            backgroundImage:'url(images/webp-images/roop-image-1.webp)'
         }}
         >
 
@@ -27,7 +32,7 @@ const Tile1 = () => {
 
 
             <div className=" relative
-            text-white font-bold
+            text-white font-bold  
             mx-auto px-3 text-center
             
             font-display
@@ -38,7 +43,7 @@ const Tile1 = () => {
             xl:text-3xl
             "
             >
-            innovative indian cuisine in a vibrant atmosphere
+            INNOVATIVE INDIAN CUISINE IN A VIBRANT ATMOSPHERE
             </div>
 
         </div>

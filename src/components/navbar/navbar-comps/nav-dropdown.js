@@ -11,7 +11,7 @@ const NavDropdown = ({items}) => {
 
     return(
         <div className=" h-fit
-        text-xl text-light mx-4 
+        text-xl text-secondary mx-4 
         flex items-center 
         relative z-10
         cursor-pointer
@@ -32,7 +32,7 @@ const NavDropdown = ({items}) => {
             }}
             >
                 <MdOutlineArrowDropUp 
-                // className="text-light"
+                // className="text-secondary"
                 size={30}
                 />
             </motion.div>

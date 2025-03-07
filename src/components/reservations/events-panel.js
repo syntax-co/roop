@@ -32,7 +32,7 @@ const EventsPanel = ({showForm,handleClick}) => {
         "
 
         style={{
-            backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/tea-sets.jpg)`,
+            backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/webp-images/tea-sets.webp)`,
         }}
 
 
@@ -45,7 +45,7 @@ const EventsPanel = ({showForm,handleClick}) => {
             >
 
                 <div className="mt-4 px-3 py-2
-                text-2xl text-light bg-[#13274173]
+                text-2xl text-secondary bg-[#13274173]
                 rounded-md
                 font-display"
                 >

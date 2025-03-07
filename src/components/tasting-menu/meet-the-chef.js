@@ -37,7 +37,7 @@ const MeetTheChef = () => {
             "
 
             style={{
-                background:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/chef.jpg)`,
+                background:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/webp-images/chef.webp)`,
                 backgroundPosition:'center',
                 backgroundSize:'cover',
             }}
@@ -93,7 +93,7 @@ const MeetTheChef = () => {
                 
 
 
-            <div className="flex-1 text-light relative
+            <div className="flex-1 text-secondary relative
             px-16 flex-col justify-center
             font-primary
             

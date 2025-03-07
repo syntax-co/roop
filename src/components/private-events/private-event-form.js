@@ -138,10 +138,9 @@ const EventForm = () => {
 
     return (
         <motion.div className="w-full h-[65vh] 
-        mx-auto mb-8
+        mx-auto mb-8 
         flex
-        
-
+       
 
         sm:flex-col
         md:flex-col
@@ -167,7 +166,11 @@ const EventForm = () => {
             <div className="w-2/5 h-full
             px-6 py-10 flex flex-col 
             bg-dutch rounded-xl text-royal
-                        
+            
+            sm:py-2
+            md:py-4
+            lg:py-10
+            xl:py-10
             
             sm:mx-auto
             md:mx-auto
@@ -190,7 +193,13 @@ const EventForm = () => {
                 
                 <div className="
                 text-6xl my-10
-                font-display"
+                font-display
+                
+                sm:text-5xl
+                md:text-5xl
+                lg:text-6xl
+                xl:text-6xl
+                "
                 >
                     Thank 
                     <br />
@@ -199,7 +208,13 @@ const EventForm = () => {
 
                 <div className="px-2 mt-5
                 text-lg
-                font-primary"
+                font-primary
+                
+                sm:text-base
+                md:text-base
+                lg:text-lg
+                xl:text-lg
+                "
                 >
 
                     Thank you for considering ROOP for your next gathering. 
@@ -229,18 +244,19 @@ const EventForm = () => {
                     </motion.div>:
 
                     <motion.form key={'event-form'} 
-                    className="flex-1 pl-6
-                    flex flex-col
+                    className="
+                    flex flex-col mx-aut
+                    mx-auto
+                    sm:w-[90vw]
+                    md:w-[85%]
+                    lg:w-[85%]
+                    xl:w-[85%]
 
                     sm:mt-10
                     md:mt-10
                     lg:mt-0
                     xl:mt-0
 
-                    sm:pl-0
-                    md:pl-0
-                    lg:pl-6
-                    xl:pl-6
                     "
                     
                     action={handleFormSubmit}
@@ -358,7 +374,7 @@ const EventForm = () => {
                             <input className="px-3 py-2
                             ml-auto mr-12 cursor-pointer
                             border border-gold
-                            rounded-md text-light"
+                            rounded-md text-secondary"
 
                             type="submit"
                             />

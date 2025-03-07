@@ -60,7 +60,7 @@ const SideMenu = ({showSide,close}) => {
         absolute bg-[#14316a62]
         rounded-l-md
         top-0 z-10
-        px-12 py-20
+        px-12 py-8
         flex flex-col
         backdrop-blur-lg
         

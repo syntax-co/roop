@@ -7,7 +7,7 @@ const BlerbTwo = () => {
     return (
         <div className="my-20 mx-auto py-10
         flex flex-col justify-center rounded-xl
-        relative left-0 bg-light
+        relative left-0 bg-secondary
         font-primary
         
         w-[85%]

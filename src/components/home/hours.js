@@ -17,13 +17,13 @@ const HoursTile = () => {
     return (
         <div ref={ref} className="w-full h-[65vh] my-40 px-4
         flex flex-col px-auto
-        text-light
+        text-secondary
         font-primary
         "
         >
 
 
-            <div className="text-light
+            <div className="text-secondary
             text-4xl mb-16
             font-display "
             >
@@ -51,7 +51,13 @@ const HoursTile = () => {
             >
 
                 <div className="ml-4 flex-1 flex items-center justify-center
-                font-display text-2xl mx-auto "
+                font-display text-2xl mx-auto 
+                
+                sm:text-lg
+                md:text-xl
+                lg:text-2xl
+                xl:text-2xl
+                "
                 >
                     Monday - Thursday 
                 </div>
@@ -61,7 +67,9 @@ const HoursTile = () => {
                 className="mx-auto flex-1
                 flex justify-center"
                 >
-                    12:00 pm - 10:00 pm
+                    12:00 pm - 
+                    <br />
+                    10:00 pm
                 </div>
 
             </motion.div>
@@ -100,7 +108,13 @@ const HoursTile = () => {
             >
 
                 <div className="ml-4 flex-1 flex items-center justify-center
-                font-display text-2xl mx-auto "
+                font-display text-2xl mx-auto 
+                
+                sm:text-lg
+                md:text-xl
+                lg:text-2xl
+                xl:text-2xl
+                "
                 >
                     Friday - Saturday
                 </div>
@@ -108,9 +122,12 @@ const HoursTile = () => {
                 />
                 <div
                 className="mx-auto flex-1
-                flex justify-center"
+                flex justify-center
+                "
                 >
-                    12:00 pm - 10:30 pm
+                    12:00 pm - 
+                    <br />
+                    10:30 pm
                 </div>
 
             </motion.div>
@@ -135,7 +152,13 @@ const HoursTile = () => {
             >
 
                 <div className="ml-4 flex-1 flex items-center justify-center
-                font-display text-2xl mx-auto "
+                font-display text-2xl mx-auto 
+                
+                sm:text-xl
+                md:text-xl
+                lg:text-2xl
+                xl:text-2xl
+                "
                 >
                     Sunday 
                 </div>
@@ -145,7 +168,9 @@ const HoursTile = () => {
                 className="mx-auto flex-1
                 flex justify-center"
                 >
-                    12:00 pm - 10:00 pm
+                    12:00 pm - 
+                    <br />
+                    10:00 pm
                 </div>
 
             </motion.div>

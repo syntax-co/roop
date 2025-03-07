@@ -23,7 +23,7 @@ const TastingMenu = () => {
 
             <PageHero 
             label="Tasting Menu"
-            image="hand-and-bowl.jpg"
+            image="hand-and-bowl.webp"
             />
 
             <BlerbTwo />

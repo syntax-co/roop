@@ -20,7 +20,7 @@ const Reservations = () => {
         animate={{opacity:1}}
         exit={{opacity:0}}
         >
-            <div className="text-light
+            <div className="text-secondary
             text-4xl my-4 px-4
             font-display"
             >

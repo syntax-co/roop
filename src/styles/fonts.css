@@ -1,9 +1,11 @@
 
 
-
-
-
-
+.font-display {
+  font-family: "Lexend Peta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .font-primary {
   font-family: "Open Sans", serif;
@@ -16,7 +18,7 @@
 
 
 
-.font-display {
+.font-logo {
     font-family: "Major Mono Display", serif;
     font-weight: 400;
     font-style: normal;

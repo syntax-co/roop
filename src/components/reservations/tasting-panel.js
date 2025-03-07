@@ -11,13 +11,13 @@ const TastingPanel = () => {
         "
 
         style={{
-            // backgroundImage:'url(.images/room-2.jpg)',
+            // backgroundImage:'url(.images/webp-images/room-2.webp)',
             // boxShadow:'inset 0px 0px 10px 0px rgba(108, 95, 95, 0.5)',
         }}
         >
 
             {/* <div className="mt-4 px-3
-            text-3xl text-light
+            text-3xl text-secondary
             font-display"
             >
                 Tasting Menu

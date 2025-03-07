@@ -31,7 +31,7 @@ const Eat = () => {
 
             <PageHero 
             label={'Eat'}
-            image={'food-variety.jpg'}
+            image={'food-variety.webp'}
             />
             
 

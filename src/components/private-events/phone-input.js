@@ -38,7 +38,7 @@ const PhoneNumberInput = ({ length = 10,setValue,error}) => {
   };
 
   return (
-    <div className="
+    <div className=" w-full
     flex flex-col 
     items-center space-y-3
     ">
@@ -60,7 +60,15 @@ const PhoneNumberInput = ({ length = 10,setValue,error}) => {
       </select>
 
       {/* Phone Number Input Boxes */}
-      <motion.div className="flex space-x-2 p-2 border rounded-md"
+      <motion.div className="flex p-2 border rounded-md
+      w-fit ml-4
+      sm:space-x-1.5
+      md:space-x-1.5
+      lg:space-x-2
+      xl:space-x-2
+      
+
+      "
       
       initial={{ borderColor: "#f9f9f9a1" }}
       animate={{ borderColor: error ? "#ff3d3da1" : "#f9f9f9a1" }}
@@ -75,17 +83,36 @@ const PhoneNumberInput = ({ length = 10,setValue,error}) => {
             onChange={(e) => handleChange(index, e.target.value)}
             onKeyDown={(e) => handleKeyDown(index, e)}
             className="
-            w-8 h-10 text-center text-xl 
+            w-8 h-10 text-center
             rounded-md bg-dutch text-royal
             focus:outline-none
-            focus:bg-light 
+            focus:bg-secondary 
+
+            font-primary
+
+            sm:text-base
+            md:text-lg
+            lg:text-xl
+            xl:text-xl
+
+            sm:h-9
+            md:h-9
+            lg:h-10
+            xl:h-10
+
+            sm:w-6
+            md:w-6
+            lg:w-6
+            xl:w-8
+
+
             "
           />
         ))}
       </motion.div>
 
       {/* Hidden full number output */}
-      <p className="mt-2 text-light">Full Number: {selectedCode} {digits.join("")}</p>
+      <p className="mt-2 text-secondary">Full Number: {selectedCode} {digits.join("")}</p>
     </div>
   );
 };

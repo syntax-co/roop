@@ -10,7 +10,7 @@ const BlerbPanel = () => {
     return (
         <div className=" my-20 mx-auto
         flex flex-col justify-center rounded-xl
-        relative left-0 bg-light
+        relative left-0 bg-secondary
         font-primary
         
 
@@ -38,19 +38,29 @@ const BlerbPanel = () => {
             font-display
 
             
-            sm:text-2xl 
-            md:text-2xl 
+            sm:text-xl 
+            md:text-xl 
             lg:text-3xl 
             xl:text-3xl
             
             "
             >
-                an amalgamation of regional indian flavors and modern gastronomic techniques
+                AN AMALGAMATION OF REGIONAL INDIAN FLAVORS AND MODERN GASTRONOMIC TECHNIQUES
             </div>
 
 
             <div className="text-royal text-lg w-5/6
             my-14 font-light
+
+            sm:my-8
+            md:my-8
+            lg:my-10
+            xl:my-14
+
+            sm:text-sm
+            md:text-base
+            lg:text-lg
+            xl:text-lg
             "
             >
                 Roop, formerly known as rooh, embodies the beauty and soul of india through 

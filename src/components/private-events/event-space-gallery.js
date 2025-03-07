@@ -47,7 +47,7 @@ const EventGallary = () => {
 
 
             <div className="
-            text-light text-4xl
+            text-secondary text-4xl
             font-display"
             
             >
@@ -86,7 +86,7 @@ const EventGallary = () => {
                 xl:mx-0"
 
                 style={{
-                    backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/room-1.jpg)`,
+                    backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/webp-images/room-1.webp)`,
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}
@@ -96,7 +96,7 @@ const EventGallary = () => {
                 <div
                 className="w-1/3 h-full ml-4
                 rounded-md
-                bg-light
+                bg-secondary
                 
                 sm:hidden
                 md:hidden
@@ -147,7 +147,7 @@ const EventGallary = () => {
                 "
 
                 style={{
-                    backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/bar.jpg)`,
+                    backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/webp-images/bar.webp)`,
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}
@@ -177,7 +177,7 @@ const EventGallary = () => {
                 xl:mx-0"
 
                 style={{
-                    backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/room-2.jpg)`,
+                    backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/webp-images/room-2.webp)`,
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}
@@ -233,7 +233,7 @@ const EventGallary = () => {
                 "
 
                 style={{
-                    backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/room-3.jpg)`,
+                    backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/webp-images/room-3.webp)`,
                     backgroundSize:'cover',
                     backgroundPosition:'center'
                 }}

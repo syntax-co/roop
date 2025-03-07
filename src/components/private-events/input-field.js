@@ -8,7 +8,7 @@ const InputField = ({ label,bodyClass,inputClass,value, ...props }) => {
             ].join(' ')}
         >
             <label className="px-3 mb-1
-            text-light
+            text-secondary
             "
             >
                 {label}

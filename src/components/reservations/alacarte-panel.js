@@ -31,7 +31,7 @@ const AlaCartePanel = ({showForm,handleClick}) => {
         "
 
         style={{
-            backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/lady.jpg)`,
+            backgroundImage:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/webp-images/lady.webp)`,
             // boxShadow:'inset 0px 0px 10px 0px rgba(0,0,0,0.5)',
         }}
 
@@ -39,7 +39,7 @@ const AlaCartePanel = ({showForm,handleClick}) => {
         >
 
             <div className="mt-4 px-3 py-2
-            text-2xl text-light bg-royalfade
+            text-2xl text-secondary bg-royalfade
             rounded-md
             font-display"
             >

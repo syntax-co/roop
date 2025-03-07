@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const NavItem = ({label,onClick}) => {
 
     return(
-        <motion.div className="h-fit text-xl text-light
+        <motion.div className="h-fit text-xl text-secondary
         mx-4 px-3 cursor-pointer rounded-md
         hover:text-royal
         flex items-center

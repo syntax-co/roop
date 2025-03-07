@@ -40,7 +40,7 @@ const PageHero = ({label,image}) => {
             "
 
             style={{
-                background:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/${image})`,
+                background:`url(${process.env.NEXT_PUBLIC_BASE_URL}/images/webp-images/${image})`,
                 backgroundPosition:'center',
                 backgroundSize:'cover',
                 backgroundAttachment: 'fixed'
