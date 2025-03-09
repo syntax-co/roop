@@ -69,7 +69,7 @@ const SideMenu = ({showSide,close}) => {
         lg:w-[40vw]
         xl:w-[20vw]
         " // Added backdrop-blur-sm class
-
+        
         initial={{
             right:'-100vw'
         }}
